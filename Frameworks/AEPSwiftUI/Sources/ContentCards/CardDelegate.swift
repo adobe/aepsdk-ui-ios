@@ -11,20 +11,17 @@
  */
 
 import Foundation
-import AEPMessaging
 
-@objc(AEPSwiftUI)
-public class AEPSwiftUI : NSObject {
+/// CardDelegate protocol defines methods that a delegate should implement to handle various card related events from the User Interface
+protocol CardDelegate {
     
-    public static var extensionVersion: String = Constants.EXTENSION_VERSION
+    /// Tells the delegate that the card has been displayed
+    func cardDisplayed()
     
+    /// Tells the delegate that the card has been dismissed
+    func cardDismissed()
     
-    /// Retrieves the content cards UI for a given surface.
-    /// - Parameters:
-    ///   - surface: The surface for which to retrieve the content cards.
-    ///   - completion: A closure that is called with the retrieved content cards or an error.
-    public static func getContentCardsUI(for surface: Surface,
-                                         completion: @escaping (Result<[ContentCardUI], Error>) -> Void) {
-        // TO DO: Implement the API
-    }
+    /// Tells the delegate that the card is interacted.
+    func cardInteracted(_ interactionId : String, actionURL url : URL)
 }
+

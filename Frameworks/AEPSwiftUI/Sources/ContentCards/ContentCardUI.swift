@@ -11,20 +11,23 @@
  */
 
 import Foundation
+import SwiftUI
 import AEPMessaging
 
-@objc(AEPSwiftUI)
-public class AEPSwiftUI : NSObject {
+/// ContentCardUI is a class that holds data for a content card and provides a SwiftUI view representation of that content.
+public class ContentCardUI: Identifiable {
     
-    public static var extensionVersion: String = Constants.EXTENSION_VERSION
+    /// The underlying data model for the content card.
+    let schemaData : ContentCardSchemaData
     
+    /// SwiftUI view that represents the content card
+    public lazy var view: some View = {
+          EmptyView()
+    }()
     
-    /// Retrieves the content cards UI for a given surface.
-    /// - Parameters:
-    ///   - surface: The surface for which to retrieve the content cards.
-    ///   - completion: A closure that is called with the retrieved content cards or an error.
-    public static func getContentCardsUI(for surface: Surface,
-                                         completion: @escaping (Result<[ContentCardUI], Error>) -> Void) {
-        // TO DO: Implement the API
+    /// Initializes the `ContentCardUI` instance with the given data
+    ///- Parameter data: The `ContentCardSchemaData` to be used for the content card.
+    init(data: ContentCardSchemaData) {
+        self.schemaData = data
     }
 }

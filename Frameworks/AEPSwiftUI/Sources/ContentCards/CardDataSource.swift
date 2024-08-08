@@ -11,20 +11,17 @@
  */
 
 import Foundation
-import AEPMessaging
 
-@objc(AEPSwiftUI)
-public class AEPSwiftUI : NSObject {
+/// CardDataSource is responsible for providing the data that the UI components needs to display.
+protocol CardDataSource {
     
-    public static var extensionVersion: String = Constants.EXTENSION_VERSION
+    // Provides the type of the template of the content card
+    func getTemplateType() -> TemplateType
     
+    // Provide the content for the card    
+    func getContent() -> [String: Any]?
     
-    /// Retrieves the content cards UI for a given surface.
-    /// - Parameters:
-    ///   - surface: The surface for which to retrieve the content cards.
-    ///   - completion: A closure that is called with the retrieved content cards or an error.
-    public static func getContentCardsUI(for surface: Surface,
-                                         completion: @escaping (Result<[ContentCardUI], Error>) -> Void) {
-        // TO DO: Implement the API
-    }
+    // Provides the published date of the card
+    func getPublishedDate() -> Int?
 }
+

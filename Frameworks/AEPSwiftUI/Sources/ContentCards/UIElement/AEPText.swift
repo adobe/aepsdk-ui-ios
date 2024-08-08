@@ -11,20 +11,14 @@
  */
 
 import Foundation
-import AEPMessaging
+import SwiftUI
 
-@objc(AEPSwiftUI)
-public class AEPSwiftUI : NSObject {
+public class AEPText: ObservableObject {
     
-    public static var extensionVersion: String = Constants.EXTENSION_VERSION
+    public lazy var view: some View = {
+        EmptyView()
+    }()
     
-    
-    /// Retrieves the content cards UI for a given surface.
-    /// - Parameters:
-    ///   - surface: The surface for which to retrieve the content cards.
-    ///   - completion: A closure that is called with the retrieved content cards or an error.
-    public static func getContentCardsUI(for surface: Surface,
-                                         completion: @escaping (Result<[ContentCardUI], Error>) -> Void) {
-        // TO DO: Implement the API
+    public init(_ data: [String : Any]) {
     }
 }

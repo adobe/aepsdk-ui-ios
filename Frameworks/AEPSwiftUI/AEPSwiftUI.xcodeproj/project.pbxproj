@@ -27,6 +27,17 @@
 		B626E0602C5EC26300ED1816 /* AEPSwiftUIPublicAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B626E05F2C5EC26300ED1816 /* AEPSwiftUIPublicAPITests.swift */; };
 		B626E0612C5EC26300ED1816 /* AEPSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B626E04D2C5EC1F400ED1816 /* AEPSwiftUI.framework */; };
 		B626E06E2C612AC200ED1816 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B626E06D2C612AC200ED1816 /* Constants.swift */; };
+		B6F4D18F2C62735600376045 /* ContentCardUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4D18E2C62735600376045 /* ContentCardUI.swift */; };
+		B6F4D1922C62796E00376045 /* CardDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4D1912C62796E00376045 /* CardDataSource.swift */; };
+		B6F4D1942C6279C300376045 /* TemplateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4D1932C6279C300376045 /* TemplateType.swift */; };
+		B6F4D19A2C62838600376045 /* ContentCardUI+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4D1992C62838600376045 /* ContentCardUI+DataSource.swift */; };
+		B6F4D19C2C628FFF00376045 /* AEPText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4D19B2C628FFF00376045 /* AEPText.swift */; };
+		B6F4D19E2C62932D00376045 /* AEPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4D19D2C62932D00376045 /* AEPButton.swift */; };
+		B6F4D1A02C62935000376045 /* AEPImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4D19F2C62935000376045 /* AEPImage.swift */; };
+		B6F4D1A22C6293FD00376045 /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4D1A12C6293FD00376045 /* TemplateView.swift */; };
+		B6F4D1A42C62947F00376045 /* SmallImageTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4D1A32C62947F00376045 /* SmallImageTemplate.swift */; };
+		B6F4D1A62C641E8700376045 /* CardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4D1A52C641E8700376045 /* CardDelegate.swift */; };
+		B6F4D1A82C643CEA00376045 /* ContentCardUI+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4D1A72C643CEA00376045 /* ContentCardUI+Delegate.swift */; };
 		E74D1204ACB4A7065BDA160C /* Pods_UnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED41BA875FEB39933D8B5D6 /* Pods_UnitTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +70,17 @@
 		B626E05D2C5EC26300ED1816 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B626E05F2C5EC26300ED1816 /* AEPSwiftUIPublicAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEPSwiftUIPublicAPITests.swift; sourceTree = "<group>"; };
 		B626E06D2C612AC200ED1816 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B6F4D18E2C62735600376045 /* ContentCardUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCardUI.swift; sourceTree = "<group>"; };
+		B6F4D1912C62796E00376045 /* CardDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDataSource.swift; sourceTree = "<group>"; };
+		B6F4D1932C6279C300376045 /* TemplateType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateType.swift; sourceTree = "<group>"; };
+		B6F4D1992C62838600376045 /* ContentCardUI+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentCardUI+DataSource.swift"; sourceTree = "<group>"; };
+		B6F4D19B2C628FFF00376045 /* AEPText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEPText.swift; sourceTree = "<group>"; };
+		B6F4D19D2C62932D00376045 /* AEPButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEPButton.swift; sourceTree = "<group>"; };
+		B6F4D19F2C62935000376045 /* AEPImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEPImage.swift; sourceTree = "<group>"; };
+		B6F4D1A12C6293FD00376045 /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
+		B6F4D1A32C62947F00376045 /* SmallImageTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallImageTemplate.swift; sourceTree = "<group>"; };
+		B6F4D1A52C641E8700376045 /* CardDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDelegate.swift; sourceTree = "<group>"; };
+		B6F4D1A72C643CEA00376045 /* ContentCardUI+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentCardUI+Delegate.swift"; sourceTree = "<group>"; };
 		C6EE3731C5E42D34C55C6B4C /* Pods-AEPSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AEPSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-AEPSwiftUI/Pods-AEPSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +148,7 @@
 		B626E04F2C5EC1F400ED1816 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B6F4D1902C6278AD00376045 /* ContentCards */,
 				B626E0502C5EC1F400ED1816 /* AEPSwiftUI.h */,
 				B626E0572C5EC24300ED1816 /* AEPSwiftUI+PublicAPI.swift */,
 				B626E06D2C612AC200ED1816 /* Constants.swift */,
@@ -139,6 +162,40 @@
 				B626E05F2C5EC26300ED1816 /* AEPSwiftUIPublicAPITests.swift */,
 			);
 			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		B6F4D1902C6278AD00376045 /* ContentCards */ = {
+			isa = PBXGroup;
+			children = (
+				B6F4D1972C62834000376045 /* TemplateViews */,
+				B6F4D1982C62834E00376045 /* UIElement */,
+				B6F4D1932C6279C300376045 /* TemplateType.swift */,
+				B6F4D18E2C62735600376045 /* ContentCardUI.swift */,
+				B6F4D1992C62838600376045 /* ContentCardUI+DataSource.swift */,
+				B6F4D1A72C643CEA00376045 /* ContentCardUI+Delegate.swift */,
+				B6F4D1912C62796E00376045 /* CardDataSource.swift */,
+				B6F4D1A52C641E8700376045 /* CardDelegate.swift */,
+			);
+			path = ContentCards;
+			sourceTree = "<group>";
+		};
+		B6F4D1972C62834000376045 /* TemplateViews */ = {
+			isa = PBXGroup;
+			children = (
+				B6F4D1A12C6293FD00376045 /* TemplateView.swift */,
+				B6F4D1A32C62947F00376045 /* SmallImageTemplate.swift */,
+			);
+			path = TemplateViews;
+			sourceTree = "<group>";
+		};
+		B6F4D1982C62834E00376045 /* UIElement */ = {
+			isa = PBXGroup;
+			children = (
+				B6F4D19B2C628FFF00376045 /* AEPText.swift */,
+				B6F4D19D2C62932D00376045 /* AEPButton.swift */,
+				B6F4D19F2C62935000376045 /* AEPImage.swift */,
+			);
+			path = UIElement;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,8 +379,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6F4D1922C62796E00376045 /* CardDataSource.swift in Sources */,
+				B6F4D1942C6279C300376045 /* TemplateType.swift in Sources */,
 				B626E0582C5EC24300ED1816 /* AEPSwiftUI+PublicAPI.swift in Sources */,
 				B626E06E2C612AC200ED1816 /* Constants.swift in Sources */,
+				B6F4D19E2C62932D00376045 /* AEPButton.swift in Sources */,
+				B6F4D1A82C643CEA00376045 /* ContentCardUI+Delegate.swift in Sources */,
+				B6F4D1A02C62935000376045 /* AEPImage.swift in Sources */,
+				B6F4D1A62C641E8700376045 /* CardDelegate.swift in Sources */,
+				B6F4D19A2C62838600376045 /* ContentCardUI+DataSource.swift in Sources */,
+				B6F4D18F2C62735600376045 /* ContentCardUI.swift in Sources */,
+				B6F4D1A42C62947F00376045 /* SmallImageTemplate.swift in Sources */,
+				B6F4D1A22C6293FD00376045 /* TemplateView.swift in Sources */,
+				B6F4D19C2C628FFF00376045 /* AEPText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
